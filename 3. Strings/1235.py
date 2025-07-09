@@ -1,6 +1,5 @@
+# Function to transform a string by reversing its first and second halves independently
 def fix_string(str):
-
-    # Function to transform a string by reversing its first and second halves independently
 
     pivot = len(str) // 2 # Calculate the midpoint of the string
     j = pivot - 1 # Start from the end of the first half

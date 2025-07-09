@@ -1,5 +1,4 @@
-def count_pages(words, max_lines, max_chars_pl):
-    """
+"""
     Function to calculates the number of pages needed to fit the given words
     based on maximum lines per page and maximum characters per line.
 
@@ -11,6 +10,7 @@ def count_pages(words, max_lines, max_chars_pl):
     Returns:
     - int: total number of pages required
     """
+def count_pages(words, max_lines, max_chars_pl):
     line = 1 # Current line number on the page
     chars = 0 # Character count on the current line
     pages = 1 # Page counter
